@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+    
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <nav class="navbar">
+     <a href="#home" class="active">Home</a>
+     <a href="#about" >About</a>
+     <a href="#services">Services</a>
+     <a href="#portfolio">Portfolio</a>
+    </nav>
+</header>
+
+<section class="home" id="home">
+<div class="home-content">
+    <h3>Hello I'm</h3>
+    <h1>Afaq Ahmed</h1>
+    <h3>And I'm a <span class="multiple-text"></span></h3>
+    <p>I aspire to make a meaningful impact by continuously honing my skills, embracing challenges, and contributing to the ever-evolving landscape of technology.</p>
+    <div class="social-media">
+    <a href="https://www.linkedin.com/in/afaq-ahmed-shahbaz-80a682264/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+    <a href="https://github.com/LUCKY0047?tab=repositories" target="_blank"<i class='bx bxl-github' ></i></a>
+    <a href="https://www.facebook.com/afaq.shahbaz.1232" target="_blank"><i class='bx bxl-facebook' ></i></a>
+</div>
+<a href="https://drive.google.com/file/d/1ZMBNHDt7fNh8kE8pVe4vr51MEn55RVxy/view?usp=sharing" target="_blank" class="btn">Download CV</a>
+</div>
+<div class="home-img"></div>
+<img src="images/profile-pic.png" alt="">
+
+</section>
+
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="images/profile-pic2.png" alt="">
+    </div>
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Computer Science Student</h3>
+        <p>I am a dedicated and passionate software developer with a strong focus on web development, C++ programming, and assembly language. My journey in the world of coding began with a fascination for crafting digital experiences and solving intricate problems. Over the years, I have honed my skills, embracing the challenge of low-level programming while thriving in the dynamic and ever-evolving realm of web development.</p>
+        <button class="read-more-button" onclick="toggleHiddenText('services0')">Read More</button>
+        <div class="hidden-text" id="services0">
+            <p>I derive immense joy from the art of turning ideas into functional, efficient, and elegant software solutions. Whether it's building web applications that empower users or delving deep into the intricacies of C++ and assembly to optimize performance, I am driven by a relentless pursuit of excellence. I'm also an avid learner, always excited to explore new technologies and techniques, and I take pride in contributing to open-source projects whenever I can.</p>
+        </div>
+    </div>
+</section>
+
+<!-- services section -->
+
+<section class="services" id="services">
+    <h2 class="heading">Our <span>Services</span></h2>
+    <div class="services-container">
+        <div class="services-box">
+            <i class='bx bx-code-alt'></i>
+            <h3>Assembly</h3>
+            <p>In the world of Assembly Programming, I leverage the power of low-level code to optimize and fine-tune software for exceptional performance.</p>
+            <button class="read-more-button" onclick="toggleHiddenText('services1')">Read More</button>
+            <div class="hidden-text" id="services1">
+                <p>With a keen eye for detail and a deep understanding of hardware, I'm dedicated to crafting efficient and elegant solutions. Whether it's creating custom libraries, reverse engineering, or squeezing every ounce of performance out of a system, I take pride in the art of Assembly Programming.</p>
+            </div>
+        </div>
+
+        <div class="services-box">
+            <i class='bx bxs-paint'></i>
+            <h3>Frontend Developer</h3>
+            <p>Frontend Development is where I blend creativity with code to craft captivating user experiences. I specialize in building responsive and interactive web applications that engage users and deliver a seamless journey. </p>
+            <button class="read-more-button" onclick="toggleHiddenText('services2')">Read More</button>
+            <div class="hidden-text" id="services2">
+                <p>With expertise in HTML, CSS, and JavaScript, I transform design concepts into functional and user-friendly websites, ensuring they not only look great but also perform flawlessly across various devices and browsers. Your vision, brought to life on the web.</p>
+            </div>
+        </div>
+
+        <div class="services-box">
+            <i class='bx bx-code-alt'></i>
+            <h3>C++ Programming</h3>
+            <p>C++ is my language of choice for creating robust, scalable, and high-performance software. With years of experience, I've mastered the intricacies of C++ and its standard libraries.</p>
+            <button class="read-more-button" onclick="toggleHiddenText('services3')">Read More</button>
+            <div class="hidden-text" id="services3">
+                <p>From application development to systems programming, I'm passionate about tackling complex challenges, optimizing code, and pushing the boundaries of what can be achieved with this versatile language.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+<div class="portfolio-container">
+    <div class="portfolio-box">
+        <img src="images/portfolio1.jpg" alt="">
+
+        <div class="portfolio-layer">
+            <h4>Student Management System</h4>
+            <p></p>
+          <a href="https://github.com/afaq-ahmed07/Student-Managment-System-with-Oracle-Datab" target="_blank"><i class='bx bx-link-external' ></i></a>
+        </div>
+ </div>
+
+ <div class="portfolio-box">
+    <img src="images/portfolio2.jpg" alt="">
+
+    <div class="portfolio-layer">
+        <h4>Food Collector Game</h4>
+        <p></p>
+      <a href="https://github.com/afaq-ahmed07/Food-Collector_Assembly_Language" target="_blank"><i class='bx bx-link-external' ></i></a>
+    </div>
+</div>
+
+<div class="portfolio-box">
+    <img src="images/portfolio3.jpg" alt="">
+
+    <div class="portfolio-layer">
+        <h4>Operating System Simulation</h4>
+        <p></p>
+      <a href="https://github.com/afaq-ahmed07/OS-Simulation" target="_blank"><i class='bx bx-link-external' ></i></a>
+    </div>
+</div>
+</div>
+
+
+</section>
+
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2023 by Afaq Ahmed | All Rights Reserved.</p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+</footer>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script src="js/script.js"></script>
+</body>
+
+</html>
